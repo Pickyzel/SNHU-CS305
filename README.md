@@ -1,16 +1,5 @@
 # SNHU-CS305
 
-Questions to still be answered..
-(Briefly summarize your client, Artemis Financial, and their software requirements. Who was the client? What issue did they want you to address?
+Artemis Financial is a company that helps many individuals succeed in their financial plans. They are looking for a secure approach to their financial application, including the most modern and updated secure operations. As a secondary request, they asked if we could add a file verification measure to help with security as well. Running the dependency check was the best thing I could do for this client. It was used to help find the different security vulnerabilities. It is very important to code securely and watch for all sorts of vulnerabilities. Without coding securely, sensitive data could be opened for unwanted eyes to see, or open to a software takeover. Another reason it is important to code securely is because it is trust. Your client would trust you more and come back for future security issues and the client's users will trust the client knowing their personal data is being protected.
 
-What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
-
-What part of the vulnerability assessment was challenging or helpful to you?
-
-How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
-
-How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
-
-What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-
-Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?)
+The most challenging part of the vulnerability assessment was making the checksum work. The assignment instructions were not very clear and read as if we had taken previous classes about some of this info. The most useful part of the assignment was learning how to do a dependency check. One way to help add a layer of security is to use cryptography. Adding in a hash operation to help secure data transfers, keeps the data protected from prying eyes. Using a dependency check allows me to clean up certain vulnerabilities. After refactoring the code, we ran a new dependency check which allowed us to validate that no new vulnerabilities were added to the software. For future employment, I would show the refactored code that is used to do a checksum. This ability I feel will be very useful in the future.
